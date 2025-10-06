@@ -4,6 +4,10 @@ body {
     font-size: smaller;
     background-color: white;
     color: black;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -13,26 +17,65 @@ header {
 text-align: center;
 }
 
+nav {
+text-align: center;
+margin-bottom: 10px;
+}
+
 nav a {
-    color: aqua;
+    color: #333;
     margin: 0 10px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #0077cc;
 }
 
 main {
     padding: 20px;
+    flex: 1;
+}
+
+.kelione {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 30%;
+    height: 20%;
+    style: border 0;
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: blanchedalmond;
     color: black;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    line-height: 1.2;
+    font-size: 14px;
+    position: static;
+}
+
+footer h3, 
+footer h4 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+footer address {
+    font-style: normal;
+    line-height: 0.6;
+    margin-bottom: 10px;
 }
