@@ -1,136 +1,135 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  font-size: smaller;
-  background-color: white;
-  color: black;
-  text-align: center;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: smaller;
+    background-color: white;
+    color: black;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-  background-color: wheat;
-  color: white;
-  padding: 15px;
-  text-align: center;
+    background-color: wheat;
+    color: white;
+    padding: 15px;
+text-align: center;
 }
 
 nav {
-  text-align: center;
-  margin-bottom: 10px;
+text-align: center;
+margin-bottom: 10px;
 }
 
 nav a {
-  color: #333;
-  margin: 0 10px;
-  font-weight: bold;
-  text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
-  color: #0077cc;
+    text-decoration: underline;
+    color: #0077cc;
 }
 
 main {
-  padding: 20px;
-  flex: 1;
+    padding: 20px;
+    flex: 1;
 }
 
 .kelione {
-  display: block;
-  width: 200px;
-  height: auto;
-  margin: 20px auto;
-  border-radius: 10px;
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 iframe {
-  width: 30%;
-  height: 20%;
-  style: border 0;
+    width: 30%;
+    height: 20%;
+    style: border 0;
 }
 
 footer {
-  background-color: blanchedalmond;
-  color: black;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  line-height: 1.2;
-  font-size: 14px;
-  position: static;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.2;
+    font-size: 14px;
+    position: static;
 }
 
-footer h3,
+footer h3, 
 footer h4 {
-  color: #333;
-  margin-bottom: 8px;
+    color: #333;
+    margin-bottom: 8px;
 }
 
 footer address {
-  font-style: normal;
-  line-height: 0.6;
-  margin-bottom: 10px;
+    font-style: normal;
+    line-height: 0.6;
+    margin-bottom: 10px;
 }
 
 video {
-  border-radius: 10px;
-  margin-top: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .pasiulymas {
-  max-width: 300px;
-  margin: auto;
-  padding: 15px;
-  background-color: goldenrod;
-  border-radius: 10px;
-  box-shadow: 0 0 10px grey;
-  text-align: center;
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    text-align: center;
 }
 
 .pasiulymas img {
-  width: 100%;
-  height: 180px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 10px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px ;
 }
 
 .pasiulymas h3 {
-  margin-top: 14px;
-  font-size: 14px;
+    margin-top: 14px;
+    font-size: 14px;
 }
 
 .pasiulymas p {
-  font-size: 14px;
-  color: #333;
-  margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .pasiulymas button {
-  background-color: brown;
-  color: antiquewhite;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
+    background-color: brown;
+    color: antiquewhite;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 #patarimai ol,
 #patarimai ul {
-  margin: 15px 40px;
-  line-height: 1.6;
-  color: #333;
-  padding-left: 30px;
-  list-style-position: inside;
+    margin: 15px 40px;
+    line-height: 1.6;
+    color: #333;
+    padding-left: 30px;
+    list-style-position: inside;
 }
 
 /* lentele */
@@ -191,6 +190,7 @@ video {
   border-radius: 6px;
 }
 
+
 /* kelioniu zurnalas */
 #uzurnalas {
   background-color: #fffaf2;
@@ -245,6 +245,7 @@ video {
 }
 
 /* uzklausa */
+
 #uzklausa {
   background-color: #fffaf2;
   padding: 40px 20px;
@@ -276,12 +277,12 @@ video {
   font-size: 14px;
   display: inline-block;
 }
-
 #uzklausa label {
-  font-weight: bold;
-  display: inline-block;
-  margin-right: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
 }
+
 
 #uzklausa button {
   background-color: burlywood;
@@ -294,11 +295,12 @@ video {
   background-color: brown;
 }
 
-.paslaugos .tipas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
+.paslaugos
+.tipas {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+justify-content: center;
 }
 
 /* login */
@@ -340,11 +342,12 @@ video {
 }
 
 #login label {
-  display: inline-block;
-  width: 80%;
+    display: inline-block;
+    width: 80%;
 }
 
 /* blog page */
+
 #blog {
   text-align: center;
   padding: 30px 20px;
@@ -400,6 +403,5 @@ video {
   width: 100%;
   height: 200px;
   border-radius: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}/*# sourceMappingURL=style.css.map */
+  object-fit: cover;
+}
